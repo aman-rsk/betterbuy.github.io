@@ -1,0 +1,44 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    color: #d5cb00;
+    background-color: black;
+    display: flex;
+}
+
+.footer h3 {
+    color: yellow;
+    padding: 0.5vw;
+}
+
+.footer ul {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 33%;
+    text-align: center;
+    list-style: none;
+    line-height: 2vw;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: #d5cb00;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.footer ul li:hover {
+    color: yellow;
+}
+
+.footer a:visited {
+    color: inherit;
+}

@@ -1,0 +1,28 @@
+* {
+	font-family: "Josefin Sans", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cardWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+@media screen and (min-width: 567px) and (max-width: 1000px) {
+	.card:nth-child(3) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.card:not(:first-child) {
+		display: none;
+	}
+}

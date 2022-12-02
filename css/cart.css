@@ -1,0 +1,23 @@
+* {
+	font-family: "Josefin Sans", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.col {
+	padding: 10px;
+}
+
+.col img {
+	width: inherit;
+}
+
+#checkout {
+	background-color: #dcd100;
+}
+
+#checkout:hover {
+	background-color: yellow;
+	font-weight: bolder;
+	border: 1px solid gainsboro;
+}

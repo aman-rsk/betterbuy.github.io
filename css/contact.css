@@ -1,0 +1,54 @@
+* {
+	font-family: "Josefin Sans", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#formContainer {
+	border: 1px solid gainsboro;
+	border-radius: 10px;
+	background-color: #f8f9fa;
+}
+
+#formContainer form {
+	padding: 40px;
+}
+
+#contactImg {
+	padding: 0px;
+	border: 1px solid #f8f9fa;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#formSubmit {
+	margin-top: 20px;
+	border: 1px solid gray;
+}
+
+#formSubmit:hover {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+label {
+	margin-top: 20px;
+}
+
+#logIn {
+	margin-top: 30px;
+	margin-bottom: 100px;
+	border: 1px solid gray;
+}
+
+#logIn:hover,
+#formSubmit:hover {
+	background-color: yellow;
+	font-weight: bold;
+	border-color: gainsboro;
+}
+
+input:hover,
+textarea:hover {
+	border-color: gray;
+}

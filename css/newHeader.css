@@ -1,0 +1,51 @@
+.material-symbols-outlined {
+	background-color: #dcd100;
+	padding: 2.5px;
+	border-radius: 5px;
+}
+
+.material-symbols-outlined:hover {
+	background-color: yellow;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navbar a,
+form,
+div {
+	margin: 10px auto;
+}
+
+.navbar a {
+	margin-left: 40px;
+}
+
+.cartLogin span {
+	margin: 5px 20px;
+}
+
+.formControl {
+	border: 2px solid #dcd100;
+	border-radius: 5px;
+	width: 325px;
+	text-align: center;
+}
+
+#navRibbon ul li a {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar ul li a:hover {
+	background-color: yellow;
+	color: black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#dropdownWomen li:hover,
+#dropdownMen li:hover {
+	background-color: yellow;
+	border-radius: 10px;
+	font-weight: bold;
+}
